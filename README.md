@@ -20,6 +20,6 @@ Features
 Architecture
 The project follows a microservices architecture with the following components:
 
-Producer Service: Sends messages to a RabbitMQ exchange.
-Consumer Service: Listens to the RabbitMQ queue and processes incoming messages.
-RabbitMQ Broker: Manages message exchanges and queues.
+1) Producer Service: Sends messages to a RabbitMQ exchange.
+2) Consumer Service: Listens to the RabbitMQ queue and processes incoming messages.
+3) RabbitMQ Broker: Manages message exchanges and queues.
